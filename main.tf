@@ -1,13 +1,3 @@
-/*
-@doc()
-# ACM Certification
-Module prebuilt for automate the ACM Certification adding automatically the DNS Records into Route 53.
-
-- Terraform version:  `0.12.+` 
-
-## How to use?
-
-*/
 resource "aws_acm_certificate" "main" {
   domain_name       = var.domain
   validation_method = "DNS"
