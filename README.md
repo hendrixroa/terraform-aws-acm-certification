@@ -2,7 +2,7 @@
 
 Module prebuilt for automate the ACM Certification adding automatically the DNS Records into Route 53.
 
-- Terraform version:  `0.12.+`
+- Terraform version:  `0.13.+`
 
 ## How to use
 
